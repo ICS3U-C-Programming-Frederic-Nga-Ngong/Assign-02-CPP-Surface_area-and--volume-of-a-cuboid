@@ -6,7 +6,7 @@
 #include<iostream>
 
 int main() {
-    int Length, width, height;
+    float Length, width, height;
     std::cout <<"Hello";
     std::cout << "How are you doing ?\n";
     std::cout << "This code only takes in numbers\n"
@@ -26,10 +26,10 @@ int main() {
     std::cin >> height;
 
     // Calculate surface area
-    int Surface_area = 2 * (Length * height + Length * width + width * height);
+    float Surface_area = 2 * (Length * height + Length * width + width * height);
 
     // Calculate volume
-    int Volume = Length * width * height;
+    float Volume = Length * width * height;
 
     // Display surface area
     std::cout << "The Surface area of the cuboid is\t" << Surface_area << "m²";
