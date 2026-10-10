@@ -1,9 +1,10 @@
 // Copyright (c) 2008 Frederic All rights reserved
 // .
 // Created by: Your Name
-// Date: Month 18 2008
-// Write Calculates area and circumference of a circle
+// 18 Feb 2008
+// This code calculates surface area and volume of a cuboid
 #include<iostream>
+#include<iomanip>
 
 int main() {
     float Length, width, height;
@@ -33,6 +34,8 @@ int main() {
 
     // Display surface area
     std::cout << "The Surface area of the cuboid is\t" << Surface_area << "m²";
+    std::cout << std::fixed << std::setprecision(2) << Surface_area;
 
     // Display volume
-    std::cout << "\nThe volume of the cuboid is\t" << Volume <<"m³";}
+    std::cout << "\nThe volume of the cuboid is\t" << Volume <<"m³";
+    std::cout << std::fixed << std::setprecision(2) << Volume;}
